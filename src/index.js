@@ -43,7 +43,7 @@ const CardImage = styled.img`
   ${({ styled }) => ({ ...styled })};
 `;
 
-const InputWrapper = styled.label`
+const InputWrapper = styled.div`
   align-items: center;
   display: ${props => (props.isActive ? 'flex' : 'none')};
   margin-left: 0.5em;
